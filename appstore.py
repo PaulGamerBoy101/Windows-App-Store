@@ -139,6 +139,29 @@ HTML = """
             color: #666;
             margin-top: 20px;
         }
+        /* New styles for sources list */
+        #details .sources-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        #details .sources-list li {
+            margin: 15px 0; /* More space between sources */
+            line-height: 1.5;
+        }
+        #details .sources-list .source-title {
+            font-weight: bold; /* Bold source titles */
+            color: #333; /* Darker color for contrast */
+            display: block; /* Ensures it’s on its own line */
+            margin-bottom: 5px; /* Space between title and link */
+        }
+        #details .sources-list a {
+            color: #0066cc; /* Blue link color */
+            text-decoration: none; /* Remove underline */
+            word-wrap: break-word; /* Break long URLs */
+        }
+        #details .sources-list a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
     </style>
 </head>
 <body>
@@ -257,9 +280,12 @@ HTML = """
                 <p><strong>Version:</strong> ${app.version}</p>
                 <p><strong>Creator:</strong> ${app.creator}</p>
                 <p><strong>Sources:</strong></p>
-                <ul>
+                <ul class="sources-list">
                     ${app.sources.length ? app.sources.map(source => `
-                        <li>${source.source}: <a href="${source.download_link}" target="_blank">${source.download_link}</a></li>
+                        <li>
+                            <span class="source-title">${source.source}</span>
+                            <a href="${source.download_link}" target="_blank">${source.download_link}</a>
+                        </li>
                     `).join('') : '<li>No sources available</li>'}
                 </ul>
             `;
