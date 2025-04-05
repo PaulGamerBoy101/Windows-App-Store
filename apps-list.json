@@ -4,7 +4,7 @@
       "name": "Notepad",
       "version": "10.0.19044",
       "creator": "Microsoft",
-      "logo": "https://example.com/notepad-win10-logo.png",
+      "logo": "https://static.wikia.nocookie.net/logopedia/images/c/c4/Notepad_Vista_10.png/revision/latest?cb=20181031102045",
       "sources": [
         {
           "source": "MSStore",
@@ -16,7 +16,7 @@
       "name": "Notepad++",
       "version": "8.6.5",
       "creator": "Don Ho",
-      "logo": "https://example.com/notepadplusplus-logo.png",
+      "logo": "https://images.freeimages.com/fic/images/icons/2561/1st_mx_is_4c/256/notepad.png",
       "sources": [
         {
           "source": "AppAgg",
@@ -32,7 +32,7 @@
       "name": "Windows Notepad",
       "version": "11.2308.22.0",
       "creator": "Microsoft",
-      "logo": "https://example.com/windows-notepad-win11-logo.png",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzyysQX0njURi53Y9WZDQMA_0vXbrhbemwZg&s",
       "sources": [
         {
           "source": "MSStore",
@@ -44,7 +44,7 @@
       "name": "Minecraft Launcher",
       "version": "1.20.4",
       "creator": "Mojang Studios",
-      "logo": "https://example.com/minecraft-launcher-logo.png",
+      "logo": "https://static.wikia.nocookie.net/logopedia/images/e/e3/Minecraft_Launcher.svg/revision/latest/scale-to-width-down/200?cb=20230616222246",
       "sources": [
         {
           "source": "AppAgg",
@@ -60,7 +60,7 @@
       "name": "Seelen UI",
       "version": "1.2.3",
       "creator": "Seelen Team",
-      "LOGO": "https://example.com/seelen-ui-logo.png",
+      "LOGO": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiS7tWrfViaVO4tiMmtCSOMo8FXpBb1prHsA&s",
       "sources": [
         {
           "source": "AppAgg",
@@ -72,7 +72,7 @@
       "name": "Discord",
       "version": "1.0.9028",
       "creator": "Discord Inc.",
-      "logo": "https://example.com/discord-logo.png",
+      "logo": "https://support.discord.com/hc/user_images/PRywUXcqg0v5DD6s7C3LyQ.jpeg",
       "sources": [
         {
           "source": "AppAgg",
@@ -88,7 +88,7 @@
       "name": "WhatsApp",
       "version": "2.2412.4",
       "creator": "Meta",
-      "logo": "https://example.com/whatsapp-logo.png",
+      "logo": "https://cdn4.iconfinder.com/data/icons/miu-square-flat-social/60/whatsapp-square-social-media-512.png",
       "sources": [
         {
           "source": "AppAgg",
