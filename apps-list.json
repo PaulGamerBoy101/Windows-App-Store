@@ -2,7 +2,7 @@
   "apps": [
     {
       "name": "Notepad",
-      "version": "10.0.19044",
+      "version": "Latest Release",
       "creator": "Microsoft",
       "logo": "https://static.wikia.nocookie.net/logopedia/images/c/c4/Notepad_Vista_10.png/revision/latest?cb=20181031102045",
       "sources": [
@@ -23,19 +23,19 @@
           "download_link": "https://notepad-plus-plus.org/downloads/v8.6.5/"
         },
         {
-          "source": "MSStore",
+          "source": "Microsoft Store",
           "download_link": "https://apps.microsoft.com/store/detail/notepadplusplus/9NBLGGH4NNS1"
         }
       ]
     },
     {
       "name": "Windows Notepad",
-      "version": "11.2308.22.0",
+      "version": "11.2501.31.0",
       "creator": "Microsoft",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Windows_Notepad_icon.png",
       "sources": [
         {
-          "source": "MSStore",
+          "source": "Microsoft Store",
           "download_link": "https://apps.microsoft.com/store/detail/windows-notepad/9MSMLRH6LZF3"
         }
       ]
@@ -47,7 +47,7 @@
       "logo": "https://static.wikia.nocookie.net/logopedia/images/e/e3/Minecraft_Launcher.svg/revision/latest/scale-to-width-down/200?cb=20230616222246",
       "sources": [
         {
-          "source": "AppAgg",
+          "source": "Official Site",
           "download_link": "https://www.minecraft.net/en-us/download"
         },
         {
@@ -63,8 +63,8 @@
       "logo": "https://www.appmiu.com/wp-content/uploads/2024/08/appmiu-thumbnail-77.png",
       "sources": [
         {
-          "source": "AppAgg",
-          "download_link": "https://seelen-ui.github.io/download"
+          "source": "GitHub",
+          "download_link": "https://github.com/eythaann/Seelen-UI/releases/latest"
         }
       ]
     },
@@ -75,7 +75,7 @@
       "logo": "https://support.discord.com/hc/user_images/PRywUXcqg0v5DD6s7C3LyQ.jpeg",
       "sources": [
         {
-          "source": "AppAgg",
+          "source": "Official Site",
           "download_link": "https://discord.com/download"
         },
         {
@@ -91,7 +91,7 @@
       "logo": "https://cdn4.iconfinder.com/data/icons/miu-square-flat-social/60/whatsapp-square-social-media-512.png",
       "sources": [
         {
-          "source": "AppAgg",
+          "source": "Official Site",
           "download_link": "https://www.whatsapp.com/download"
         },
         {
@@ -102,7 +102,7 @@
     },
     {
       "name": "eM Client",
-      "version": "9.2.2258",
+      "version": "Latest Release",
       "creator": "eM Client Inc.",
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw9zBcAkJP00u6DHy_OoU2J7NifaP5m2yhkg&s",
       "sources": [
@@ -114,13 +114,13 @@
     },
     {
       "name": "Cairo Desktop",
-      "version": "1.4.0",
+      "version": "Latest Release",
       "creator": "Cairo Desktop Team",
       "logo": "https://avatars.githubusercontent.com/u/179708?v=4",
       "sources": [
         {
-          "source": "Official Site",
-          "download_link": "https://cairodesktop.com/#download"
+          "source": "GitHub",
+          "download_link": "https://github.com/cairoshell/cairoshell/releases/latest"
         }
       ]
     },
@@ -132,7 +132,7 @@
       "sources": [
         {
           "source": "Official Site",
-          "download_link": "https://floorp.app/en/download/"
+          "download_link": "https://floorp.app/en/download?platform=windows"
         },
         {
           "source": "GitHub",
@@ -166,7 +166,7 @@
     },
     {
       "name": "Chromium",
-      "version": "latest version",
+      "version": "Latest Version",
       "creator": "The Chromium Team",
       "logo": "https://raw.githubusercontent.com/alrra/browser-logos/1098510a73b0b5eaa7afac3e6b74bbc336aa7d77/src/chromium/chromium_512x512.png",
       "sources": [
@@ -180,7 +180,7 @@
       "name": "Chrome Dev",
       "version": "125.0.6422.3",
       "creator": "Google",
-      "logo": "https://spng.pinpng.com/pngs/s/681-6817851_chrome-dev-tools-icon-hd-png-download.png",
+      "logo": "https://www.svgrepo.com/show/378785/chrome-dev.svg",
       "sources": [
         {
           "source": "Official Site",
