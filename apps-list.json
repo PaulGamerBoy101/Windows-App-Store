@@ -51,7 +51,7 @@
           "download_link": "https://www.minecraft.net/en-us/download"
         },
         {
-          "source": "MSStore",
+          "source": "Microsoft Store",
           "download_link": "https://apps.microsoft.com/store/detail/minecraft-launcher/9NBLGGH4X22N"
         }
       ]
@@ -59,7 +59,7 @@
     {
       "name": "Seelen UI",
       "version": "1.2.3",
-      "creator": "Seelen Team",
+      "creator": "Eythaann, Seelen Team",
       "logo": "https://www.appmiu.com/wp-content/uploads/2024/08/appmiu-thumbnail-77.png",
       "sources": [
         {
@@ -79,7 +79,7 @@
           "download_link": "https://discord.com/download"
         },
         {
-          "source": "MSStore",
+          "source": "Microsoft Store",
           "download_link": "https://apps.microsoft.com/store/detail/discord/9PFX4R8KFXK9"
         }
       ]
@@ -95,7 +95,7 @@
           "download_link": "https://www.whatsapp.com/download"
         },
         {
-          "source": "MSStore",
+          "source": "Microsoft Store",
           "download_link": "https://apps.microsoft.com/store/detail/whatsapp/9NKSQGP7F2NH"
         }
       ]
@@ -109,7 +109,10 @@
         {
           "source": "Official Site",
           "download_link": "https://www.emclient.com/download"
-        }
+        },
+        {
+          "source": "Microsoft Store",
+          "download_link": "https://apps.microsoft.com/detail/9nm8s4pvf0n2"
       ]
     },
     {
@@ -149,12 +152,15 @@
         {
           "source": "Official Site",
           "download_link": "https://vivaldi.com/download/"
-        }
+        },
+        {
+          "source": "Microsoft Store",
+          "download_link": "https://apps.microsoft.com/detail/xp99gvqdx7jpr4"
       ]
     },
     {
-      "name": "Google Chrome",
-      "version": "123.0.6312.86",
+      "name": "Chrome Stable",
+      "version": "Latest Stable Release",
       "creator": "Google",
       "logo": "https://www.google.com/chrome/static/images/chrome-logo.svg",
       "sources": [
@@ -166,19 +172,23 @@
     },
     {
       "name": "Chromium",
-      "version": "Latest Version",
+      "version": "Latest Release",
       "creator": "The Chromium Team",
       "logo": "https://raw.githubusercontent.com/alrra/browser-logos/1098510a73b0b5eaa7afac3e6b74bbc336aa7d77/src/chromium/chromium_512x512.png",
       "sources": [
         {
           "source": "Official Site",
           "download_link": "https://download-chromium.appspot.com/dl/Win_x64?type=snapshots"
+        },
+        {
+          "source": "Woolyss"
+          "download_link": "https://chromium.woolyss.com/download/en/#windows"
         }
       ]
     },
     {
       "name": "Chrome Dev",
-      "version": "125.0.6422.3",
+      "version": "Latest Dev Release",
       "creator": "Google",
       "logo": "https://www.svgrepo.com/show/378785/chrome-dev.svg",
       "sources": [
@@ -190,7 +200,7 @@
     },
     {
       "name": "Chrome Canary",
-      "version": "126.0.6478.0",
+      "version": "Latest Canary Release",
       "creator": "Google",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Chrome-canary-logo.svg/2048px-Chrome-canary-logo.svg.png",
       "sources": [
@@ -202,7 +212,7 @@
     },
     {
       "name": "Chrome Beta",
-      "version": "124.0.6367.54",
+      "version": "Latest Beta Release",
       "creator": "Google",
       "logo": "https://static-00.iconduck.com/assets.00/chrome-beta-icon-2048x2048-sotb05ru.png",
       "sources": [
@@ -214,13 +224,21 @@
     },
     {
       "name": "Firefox",
-      "version": "124.0.1",
+      "version": "Latest Release",
       "creator": "Mozilla",
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzIrIdoS4HlZcOsWK_6I_kKWvHeBDiFNvNw&s",
       "sources": [
         {
           "source": "Official Site",
-          "download_link": "https://www.mozilla.org/en-US/firefox/new/"
+          "download_link": "https://www.mozilla.org/en-US/firefox/browsers/windows-64-bit/"
+        },
+        {
+          "source": "Microsoft Store",
+          "download_link": "https://apps.microsoft.com/detail/9nzvdkpmr9rd"
+        },
+        {
+          "source": "CNET",
+          "download_link": "https://download.cnet.com/mozilla-firefox-64-bit/3000-2356_4-76472513.html"
         }
       ]
     },
@@ -250,26 +268,29 @@
     },
     {
       "name": "Git for Windows",
-      "version": "2.44.0",
+      "version": "2.49.0",
       "creator": "Git for Windows Team",
       "logo": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       "sources": [
         {
           "source": "Official Site",
-          "download_link": "https://git-scm.com/download/win"
+          "download_link": "https://github.com/git-for-windows/git/releases/download/v2.49.0.windows.1/Git-2.49.0-64-bit.exe"
         }
       ]
     },
     {
       "name": "Visual Studio Code",
-      "version": "1.88.0",
+      "version": "Latest Release",
       "creator": "Microsoft",
       "logo": "https://code.visualstudio.com/favicon.ico",
       "sources": [
         {
           "source": "Official Site",
-          "download_link": "https://code.visualstudio.com/Download"
-        }
+          "download_link": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
+        },
+        {
+          "source": "GitHub",
+          "download_link": "https://github.com/microsoft/vscode/releases/latest"
       ]
     },
     {
