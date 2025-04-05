@@ -1,0 +1,104 @@
+{
+  "apps": [
+    {
+      "name": "Notepad",
+      "version": "10.0.19044",
+      "creator": "Microsoft",
+      "logo": "https://example.com/notepad-win10-logo.png",
+      "sources": [
+        {
+          "source": "MSStore",
+          "download_link": "https://apps.microsoft.com/store/detail/notepad/9WZDNCRFHVJL"
+        }
+      ]
+    },
+    {
+      "name": "Notepad++",
+      "version": "8.6.5",
+      "creator": "Don Ho",
+      "logo": "https://example.com/notepadplusplus-logo.png",
+      "sources": [
+        {
+          "source": "AppAgg",
+          "download_link": "https://notepad-plus-plus.org/downloads/v8.6.5/"
+        },
+        {
+          "source": "MSStore",
+          "download_link": "https://apps.microsoft.com/store/detail/notepadplusplus/9NBLGGH4NNS1"
+        }
+      ]
+    },
+    {
+      "name": "Windows Notepad",
+      "version": "11.2308.22.0",
+      "creator": "Microsoft",
+      "logo": "https://example.com/windows-notepad-win11-logo.png",
+      "sources": [
+        {
+          "source": "MSStore",
+          "download_link": "https://apps.microsoft.com/store/detail/windows-notepad/9MSMLRH6LZF3"
+        }
+      ]
+    },
+    {
+      "name": "Minecraft Launcher",
+      "version": "1.20.4",
+      "creator": "Mojang Studios",
+      "logo": "https://example.com/minecraft-launcher-logo.png",
+      "sources": [
+        {
+          "source": "AppAgg",
+          "download_link": "https://www.minecraft.net/en-us/download"
+        },
+        {
+          "source": "MSStore",
+          "download_link": "https://apps.microsoft.com/store/detail/minecraft-launcher/9NBLGGH4X22N"
+        }
+      ]
+    },
+    {
+      "name": "Seelen UI",
+      "version": "1.2.3",
+      "creator": "Seelen Team",
+      "LOGO": "https://example.com/seelen-ui-logo.png",
+      "sources": [
+        {
+          "source": "AppAgg",
+          "download_link": "https://seelen-ui.github.io/download"
+        }
+      ]
+    },
+    {
+      "name": "Discord",
+      "version": "1.0.9028",
+      "creator": "Discord Inc.",
+      "logo": "https://example.com/discord-logo.png",
+      "sources": [
+        {
+          "source": "AppAgg",
+          "download_link": "https://discord.com/download"
+        },
+        {
+          "source": "MSStore",
+          "download_link": "https://apps.microsoft.com/store/detail/discord/9PFX4R8KFXK9"
+        }
+      ]
+    },
+    {
+      "name": "WhatsApp",
+      "version": "2.2412.4",
+      "creator": "Meta",
+      "logo": "https://example.com/whatsapp-logo.png",
+      "sources": [
+        {
+          "source": "AppAgg",
+          "download_link": "https://www.whatsapp.com/download"
+        },
+        {
+          "source": "MSStore",
+          "download_link": "https://apps.microsoft.com/store/detail/whatsapp/9NKSQGP7F2NH"
+        }
+      ]
+    }
+  ]
+}
