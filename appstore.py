@@ -22,6 +22,33 @@ HTML = """
             max-width: 800px;
             margin: auto;
         }
+        .tabs {
+            display: flex;
+            gap: 0;
+            margin-bottom: 20px;
+        }
+        .tab {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+            background-color: #ddd;
+            cursor: pointer;
+            border-bottom: 2px solid #ccc;
+        }
+        .tab.active {
+            background-color: #fff;
+            border-bottom: 2px solid #00ff00;
+            font-weight: bold;
+        }
+        .tab:hover {
+            background-color: #eee;
+        }
+        .content {
+            display: none;
+        }
+        .content.active {
+            display: block;
+        }
         .search-bar {
             display: flex;
             gap: 10px;
@@ -45,7 +72,7 @@ HTML = """
             background-color: #c2ffc2;
             cursor: not-allowed;
         }
-        #results {
+        #results, #allApps {
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
@@ -58,14 +85,18 @@ HTML = """
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
             cursor: pointer;
             text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .card:hover {
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
         .card img {
-            max-width: 100px;
+            width: 100px; /* Fixed width for consistency */
             height: auto;
             margin-bottom: 10px;
+            display: block;
         }
         #details {
             display: none;
@@ -103,7 +134,7 @@ HTML = """
             cursor: pointer;
             margin-top: 10px;
         }
-        #loading {
+        #loading, #allLoading {
             text-align: center;
             color: #666;
             margin-top: 20px;
@@ -113,12 +144,22 @@ HTML = """
 <body>
     <div class="container">
         <h1>Windows Applications Store</h1>
-        <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="Search apps...">
-            <button onclick="search()">Search</button>
+        <div class="tabs">
+            <div class="tab active" onclick="switchTab('all')">All</div>
+            <div class="tab" onclick="switchTab('search')">Search</div>
         </div>
-        <div id="results"></div>
-        <div id="loading"></div>
+        <div id="allContent" class="content active">
+            <div id="allApps"></div>
+            <div id="allLoading"></div>
+        </div>
+        <div id="searchContent" class="content">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search apps...">
+                <button onclick="search()">Search</button>
+            </div>
+            <div id="results"></div>
+            <div id="loading"></div>
+        </div>
     </div>
     <div id="overlay" onclick="closeDetails()"></div>
     <div id="details">
@@ -128,6 +169,31 @@ HTML = """
 
     <script>
         let allResults = [];
+        let allApps = [];
+
+        // Load all apps on page load
+        window.addEventListener('pywebviewready', function() {
+            document.getElementById('allLoading').innerText = 'Loading all apps... Please wait.';
+            window.pywebview.api.load_all_apps()
+                .then(apps => {
+                    allApps = apps.sort((a, b) => a.name.localeCompare(b.name)); // Sort A-Z
+                    displayAllApps();
+                    document.getElementById('allLoading').innerText = '';
+                })
+                .catch(err => {
+                    document.getElementById('allApps').innerHTML = `<p>Error: ${err}</p>`;
+                    document.getElementById('allLoading').innerText = '';
+                });
+        });
+
+        function switchTab(tab) {
+            const tabs = document.querySelectorAll('.tab');
+            const contents = document.querySelectorAll('.content');
+            tabs.forEach(t => t.classList.remove('active'));
+            contents.forEach(c => c.classList.remove('active'));
+            document.querySelector(`.tab[onclick="switchTab('${tab}')"]`).classList.add('active');
+            document.getElementById(`${tab}Content`).classList.add('active');
+        }
 
         function search() {
             const query = document.getElementById('searchInput').value.trim();
@@ -156,7 +222,7 @@ HTML = """
             const resultsDiv = document.getElementById('results');
             resultsDiv.innerHTML = allResults.length ? 
                 allResults.map(app => `
-                    <div class="card" onclick="showDetails('${app.name}')">
+                    <div class="card" onclick="showDetails('${app.name}', 'search')">
                         <img src="${app.logo}" alt="${app.name} logo">
                         <strong>${app.name}</strong><br>
                         Version: ${app.version}<br>
@@ -166,8 +232,23 @@ HTML = """
                 '<p>No matching apps found.</p>';
         }
 
-        function showDetails(appName) {
-            const app = allResults.find(a => a.name === appName);
+        function displayAllApps() {
+            const allAppsDiv = document.getElementById('allApps');
+            allAppsDiv.innerHTML = allApps.length ? 
+                allApps.map(app => `
+                    <div class="card" onclick="showDetails('${app.name}', 'all')">
+                        <img src="${app.logo}" alt="${app.name} logo">
+                        <strong>${app.name}</strong><br>
+                        Version: ${app.version}<br>
+                        Creator: ${app.creator}
+                    </div>
+                `).join('') : 
+                '<p>No apps available.</p>';
+        }
+
+        function showDetails(appName, source) {
+            const appList = source === 'all' ? allApps : allResults;
+            const app = appList.find(a => a.name === appName);
             if (!app) return;
             const detailsDiv = document.getElementById('detailsContent');
             detailsDiv.innerHTML = `
@@ -210,10 +291,20 @@ class Api:
         except Exception as e:
             raise Exception(f"Failed to fetch apps: {str(e)}")
 
+    def load_all_apps(self):
+        try:
+            response = requests.get(GITHUB_JSON_URL, timeout=10)
+            response.raise_for_status()
+            data = json.loads(response.text)
+            all_apps = data.get("apps", [])
+            return all_apps
+        except Exception as e:
+            raise Exception(f"Failed to load apps: {str(e)}")
+
 def start_webview():
     api = Api()
-    window = webview.create_window("Windows Applications Store", html=HTML, js_api=api, width=800, height=600)
-    webview.start()
+    window = webview.create_window("Windows Applications Store", html=HTML, js_api=api, width=840, height=600)
+    webview.start(debug=False)  # Disable debug mode
 
 if __name__ == "__main__":
     start_webview()  # Run directly in the main thread
