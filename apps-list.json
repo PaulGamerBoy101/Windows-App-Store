@@ -99,6 +99,194 @@
           "download_link": "https://apps.microsoft.com/store/detail/whatsapp/9NKSQGP7F2NH"
         }
       ]
+    },
+    {
+      "name": "eM Client",
+      "version": "9.2.2258",
+      "creator": "eM Client Inc.",
+      "logo": "https://www.emclient.com/images/favicon/android-icon-192x192.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.emclient.com/download"
+        }
+      ]
+    },
+    {
+      "name": "Cairo Desktop",
+      "version": "1.4.0",
+      "creator": "Cairo Desktop Team",
+      "logo": "https://cairodesktop.com/favicon.ico",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://cairodesktop.com/#download"
+        }
+      ]
+    },
+    {
+      "name": "Floorp",
+      "version": "11.11.0",
+      "creator": "Floorp Projects",
+      "logo": "https://floorp.app/favicon.ico",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://floorp.app/en/download/"
+        },
+        {
+          "source": "GitHub",
+          "download_link": "https://github.com/Floorp-Projects/Floorp/releases/latest"
+        }
+      ]
+    },
+    {
+      "name": "Vivaldi",
+      "version": "6.6",
+      "creator": "Vivaldi Technologies",
+      "logo": "https://vivaldi.com/wp-content/uploads/cropped-favicon-192x192-1-180x180.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://vivaldi.com/download/"
+        }
+      ]
+    },
+    {
+      "name": "Google Chrome",
+      "version": "123.0.6312.86",
+      "creator": "Google",
+      "logo": "https://www.google.com/chrome/static/images/chrome-logo.svg",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.google.com/chrome/"
+        }
+      ]
+    },
+    {
+      "name": "Chromium",
+      "version": "latest version",
+      "creator": "The Chromium Authors",
+      "logo": "https://www.chromium.org/static/images/chromium-logo.png",
+      "sources": [
+        {
+          "source": "Snapshot Builds",
+          "download_link": "https://download-chromium.appspot.com/dl/Win_x64?type=snapshots"
+        },
+        {
+          "source": "Official Site",
+          "download_link": "https://www.chromium.org/getting-involved/download-chromium/"
+        }
+      ]
+    },
+    {
+      "name": "Chrome Dev",
+      "version": "125.0.6422.3",
+      "creator": "Google",
+      "logo": "https://www.google.com/chrome/static/images/chrome-logo.svg",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.google.com/chrome/dev/"
+        }
+      ]
+    },
+    {
+      "name": "Chrome Canary",
+      "version": "126.0.6478.0",
+      "creator": "Google",
+      "logo": "https://www.google.com/chrome/static/images/chrome-logo.svg",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.google.com/chrome/canary/"
+        }
+      ]
+    },
+    {
+      "name": "Chrome Beta",
+      "version": "124.0.6367.54",
+      "creator": "Google",
+      "logo": "https://www.google.com/chrome/static/images/chrome-logo.svg",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.google.com/chrome/beta/"
+        }
+      ]
+    },
+    {
+      "name": "Firefox",
+      "version": "124.0.1",
+      "creator": "Mozilla",
+      "logo": "https://www.mozilla.org/media/img/firefox/favicon.192.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.mozilla.org/en-US/firefox/new/"
+        }
+      ]
+    },
+    {
+      "name": "Arc",
+      "version": "1.0",
+      "creator": "The Browser Company",
+      "logo": "https://arc.net/favicon.ico",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://arc.net/"
+        }
+      ]
+    },
+    {
+      "name": "GitHub Desktop",
+      "version": "3.3.12",
+      "creator": "GitHub, Inc.",
+      "logo": "https://desktop.github.com/images/desktop-icon.svg",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://desktop.github.com/"
+        }
+      ]
+    },
+    {
+      "name": "Git for Windows",
+      "version": "2.44.0",
+      "creator": "Git for Windows Team",
+      "logo": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://git-scm.com/download/win"
+        }
+      ]
+    },
+    {
+      "name": "Visual Studio Code",
+      "version": "1.88.0",
+      "creator": "Microsoft",
+      "logo": "https://code.visualstudio.com/favicon.ico",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://code.visualstudio.com/Download"
+        }
+      ]
+    },
+    {
+      "name": "Visual Studio Community 2022",
+      "version": "17.9.0",
+      "creator": "Microsoft",
+      "logo": "https://visualstudio.microsoft.com/wp-content/uploads/2021/10/VS-Icon.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://visualstudio.microsoft.com/vs/community/"
+        }
+      ]
     }
   ]
 }
