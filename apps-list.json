@@ -32,7 +32,7 @@
       "name": "Windows Notepad",
       "version": "11.2308.22.0",
       "creator": "Microsoft",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzyysQX0njURi53Y9WZDQMA_0vXbrhbemwZg&s",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Windows_Notepad_icon.png",
       "sources": [
         {
           "source": "MSStore",
@@ -60,7 +60,7 @@
       "name": "Seelen UI",
       "version": "1.2.3",
       "creator": "Seelen Team",
-      "LOGO": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiS7tWrfViaVO4tiMmtCSOMo8FXpBb1prHsA&s",
+      "LOGO": "https://onedigital.mx/ww3/wp-content/uploads/2024/11/seleen-ui-logo-560x600.jpg",
       "sources": [
         {
           "source": "AppAgg",
