@@ -113,6 +113,7 @@
         {
           "source": "Microsoft Store",
           "download_link": "https://apps.microsoft.com/detail/9nm8s4pvf0n2"
+        }
       ]
     },
     {
@@ -156,6 +157,7 @@
         {
           "source": "Microsoft Store",
           "download_link": "https://apps.microsoft.com/detail/xp99gvqdx7jpr4"
+        }
       ]
     },
     {
@@ -181,7 +183,7 @@
           "download_link": "https://download-chromium.appspot.com/dl/Win_x64?type=snapshots"
         },
         {
-          "source": "Woolyss"
+          "source": "Woolyss",
           "download_link": "https://chromium.woolyss.com/download/en/#windows"
         }
       ]
@@ -291,6 +293,7 @@
         {
           "source": "GitHub",
           "download_link": "https://github.com/microsoft/vscode/releases/latest"
+        }
       ]
     },
     {
