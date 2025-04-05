@@ -307,6 +307,198 @@
           "download_link": "https://visualstudio.microsoft.com/vs/community/"
         }
       ]
+    },
+    {
+      "name": "Start11",
+      "version": "Latest Release",
+      "creator": "Stardock",
+      "logo": "https://cdn.stardock.com/products/start11/images/logo-start11.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.stardock.com/products/start11/download"
+        }
+      ]
+    },
+    {
+      "name": "StartIsBack",
+      "version": "Latest Release",
+      "creator": "StartIsBack Team",
+      "logo": "https://www.startisback.com/images/startisback.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.startisback.com/#download-tab"
+        }
+      ]
+    },
+    {
+      "name": "StartAllBack",
+      "version": "Latest Release",
+      "creator": "StartAllBack Team",
+      "logo": "https://www.startallback.com/images/startallback.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.startallback.com/#download-tab"
+        }
+      ]
+    },
+    {
+      "name": "Windhawk",
+      "version": "Latest Release",
+      "creator": "Windhawk Team",
+      "logo": "https://windhawk.net/favicon.ico",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://windhawk.net/download/"
+        },
+        {
+          "source": "GitHub",
+          "download_link": "https://github.com/ramensoftware/windhawk/releases/latest"
+        }
+      ]
+    },
+    {
+      "name": "Rainmeter",
+      "version": "Latest Release",
+      "creator": "Rainmeter Team",
+      "logo": "https://www.rainmeter.net/favicon.ico",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.rainmeter.net/"
+        },
+        {
+          "source": "GitHub",
+          "download_link": "https://github.com/rainmeter/rainmeter/releases/latest"
+        }
+      ]
+    },
+    {
+      "name": "Talisman Desktop",
+      "version": "Latest Release",
+      "creator": "Lighttek Software",
+      "logo": "https://lighttek.com/images/talisman_icon.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://lighttek.com/talisman.htm"
+        }
+      ]
+    },
+    {
+      "name": "VirtualBox",
+      "version": "Latest Release",
+      "creator": "Oracle",
+      "logo": "https://www.virtualbox.org/graphics/vbox_logo2_gradient.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.virtualbox.org/wiki/Downloads"
+        }
+      ]
+    },
+    {
+      "name": "VMware",
+      "version": "Latest Release",
+      "creator": "VMware, Inc.",
+      "logo": "https://www.vmware.com/etc.clientlibs/vmware-corporate/clientlibs/clientlib-site/resources/images/favicon.ico",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.vmware.com/products/workstation-player.html"
+        }
+      ]
+    },
+    {
+      "name": "WindowBlinds",
+      "version": "Latest Release",
+      "creator": "Stardock",
+      "logo": "https://cdn.stardock.com/products/windowblinds/images/logo-windowblinds.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.stardock.com/products/windowblinds/download"
+        }
+      ]
+    },
+    {
+      "name": "FlashPeak Slimjet",
+      "version": "Latest Release",
+      "creator": "FlashPeak Inc.",
+      "logo": "https://www.slimjet.com/images/slimjet_logo.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.slimjet.com/en/dlpage.php"
+        }
+      ]
+    },
+    {
+      "name": "PowerToys",
+      "version": "Latest Release",
+      "creator": "Microsoft",
+      "logo": "https://github.com/microsoft/PowerToys/raw/main/doc/images/icon.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://learn.microsoft.com/en-us/windows/powertoys/install"
+        },
+        {
+          "source": "GitHub",
+          "download_link": "https://github.com/microsoft/PowerToys/releases/latest"
+        },
+        {
+          "source": "Microsoft Store",
+          "download_link": "https://apps.microsoft.com/detail/9NBLGGH4TLCQ"
+        }
+      ]
+    },
+    {
+      "name": "WinToys",
+      "version": "Latest Release",
+      "creator": "Builtbybel",
+      "logo": "https://github.com/builtbybel/wintoys/raw/master/assets/icon.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.wintoys.app/"
+        },
+        {
+          "source": "GitHub",
+          "download_link": "https://github.com/builtbybel/wintoys/releases/latest"
+        },
+        {
+          "source": "Microsoft Store",
+          "download_link": "https://apps.microsoft.com/detail/9P8LRTJRBSNR"
+        }
+      ]
+    },
+    {
+      "name": "Tor",
+      "version": "Latest Release",
+      "creator": "The Tor Project",
+      "logo": "https://www.torproject.org/static/images/tor-logo@2x.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.torproject.org/download/"
+        }
+      ]
+    },
+    {
+      "name": "Tor Alpha",
+      "version": "Latest Alpha Release",
+      "creator": "The Tor Project",
+      "logo": "https://www.torproject.org/static/images/tor-logo@2x.png",
+      "sources": [
+        {
+          "source": "Official Site",
+          "download_link": "https://www.torproject.org/download/tor/"
+        }
+      ]
     }
   ]
 }
