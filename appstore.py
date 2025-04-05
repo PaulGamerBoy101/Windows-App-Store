@@ -35,13 +35,14 @@ HTML = """
         button {
             padding: 8px 16px;
             font-size: 16px;
-            background-color: #007bff;
-            color: white;
+            background-color: #00ff00;
+            color: black;
             border: none;
+            border-radius: 10px;
             cursor: pointer;
         }
         button:disabled {
-            background-color: #cccccc;
+            background-color: #c2ffc2;
             cursor: not-allowed;
         }
         #results {
