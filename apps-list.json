@@ -192,7 +192,7 @@
       "name": "Chrome Dev",
       "version": "Latest Dev Release",
       "creator": "Google",
-      "logo": "https://github.com/PaulGamerBoy101/Windows-App-Store/blob/1b33bfb7a6777fdbfef491d798fa2411218d3b3d/app-icons/chrome-dev.svg",
+      "logo": "https://raw.githubusercontent.com/PaulGamerBoy101/Windows-App-Store/02c4e92a9f9f607fe01635a7650c8081404f73ca/app-icons/chrome-dev.svg",
       "sources": [
         {
           "source": "Official Site",
