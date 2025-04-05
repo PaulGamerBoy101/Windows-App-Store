@@ -104,7 +104,7 @@
       "name": "eM Client",
       "version": "9.2.2258",
       "creator": "eM Client Inc.",
-      "logo": "https://www.emclient.com/images/favicon/android-icon-192x192.png",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw9zBcAkJP00u6DHy_OoU2J7NifaP5m2yhkg&s",
       "sources": [
         {
           "source": "Official Site",
@@ -116,7 +116,7 @@
       "name": "Cairo Desktop",
       "version": "1.4.0",
       "creator": "Cairo Desktop Team",
-      "logo": "https://cairodesktop.com/favicon.ico",
+      "logo": "https://avatars.githubusercontent.com/u/179708?v=4",
       "sources": [
         {
           "source": "Official Site",
@@ -144,7 +144,7 @@
       "name": "Vivaldi",
       "version": "6.6",
       "creator": "Vivaldi Technologies",
-      "logo": "https://vivaldi.com/wp-content/uploads/cropped-favicon-192x192-1-180x180.png",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Vivaldi_web_browser_logo.svg/1026px-Vivaldi_web_browser_logo.svg.png",
       "sources": [
         {
           "source": "Official Site",
@@ -167,16 +167,12 @@
     {
       "name": "Chromium",
       "version": "latest version",
-      "creator": "The Chromium Authors",
-      "logo": "https://www.chromium.org/static/images/chromium-logo.png",
+      "creator": "The Chromium Team",
+      "logo": "https://raw.githubusercontent.com/alrra/browser-logos/1098510a73b0b5eaa7afac3e6b74bbc336aa7d77/src/chromium/chromium_512x512.png",
       "sources": [
         {
-          "source": "Snapshot Builds",
-          "download_link": "https://download-chromium.appspot.com/dl/Win_x64?type=snapshots"
-        },
-        {
           "source": "Official Site",
-          "download_link": "https://www.chromium.org/getting-involved/download-chromium/"
+          "download_link": "https://download-chromium.appspot.com/dl/Win_x64?type=snapshots"
         }
       ]
     },
@@ -184,7 +180,7 @@
       "name": "Chrome Dev",
       "version": "125.0.6422.3",
       "creator": "Google",
-      "logo": "https://www.google.com/chrome/static/images/chrome-logo.svg",
+      "logo": "https://spng.pinpng.com/pngs/s/681-6817851_chrome-dev-tools-icon-hd-png-download.png",
       "sources": [
         {
           "source": "Official Site",
@@ -196,7 +192,7 @@
       "name": "Chrome Canary",
       "version": "126.0.6478.0",
       "creator": "Google",
-      "logo": "https://www.google.com/chrome/static/images/chrome-logo.svg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Chrome-canary-logo.svg/2048px-Chrome-canary-logo.svg.png",
       "sources": [
         {
           "source": "Official Site",
@@ -208,7 +204,7 @@
       "name": "Chrome Beta",
       "version": "124.0.6367.54",
       "creator": "Google",
-      "logo": "https://www.google.com/chrome/static/images/chrome-logo.svg",
+      "logo": "https://static-00.iconduck.com/assets.00/chrome-beta-icon-2048x2048-sotb05ru.png",
       "sources": [
         {
           "source": "Official Site",
@@ -220,7 +216,7 @@
       "name": "Firefox",
       "version": "124.0.1",
       "creator": "Mozilla",
-      "logo": "https://www.mozilla.org/media/img/firefox/favicon.192.png",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgzIrIdoS4HlZcOsWK_6I_kKWvHeBDiFNvNw&s",
       "sources": [
         {
           "source": "Official Site",
@@ -232,11 +228,11 @@
       "name": "Arc",
       "version": "1.0",
       "creator": "The Browser Company",
-      "logo": "https://arc.net/favicon.ico",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Arc_%28browser%29_logo.svg/640px-Arc_%28browser%29_logo.svg.png",
       "sources": [
         {
           "source": "Official Site",
-          "download_link": "https://arc.net/"
+          "download_link": "https://releases.arc.net/windows/ArcInstaller.exe"
         }
       ]
     },
@@ -280,7 +276,7 @@
       "name": "Visual Studio Community 2022",
       "version": "17.9.0",
       "creator": "Microsoft",
-      "logo": "https://visualstudio.microsoft.com/wp-content/uploads/2021/10/VS-Icon.png",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShNr_qvEhshsb5yO_f4jm061arTxC6JtT6mA&s",
       "sources": [
         {
           "source": "Official Site",
