@@ -14,12 +14,12 @@
     },
     {
       "name": "Notepad++",
-      "version": "8.6.5",
+      "version": "8.6.5 — Latest Release",
       "creator": "Don Ho",
       "logo": "https://images.freeimages.com/fic/images/icons/2561/1st_mx_is_4c/256/notepad.png",
       "sources": [
         {
-          "source": "AppAgg",
+          "source": "Official Site",
           "download_link": "https://notepad-plus-plus.org/downloads/v8.6.5/"
         },
         {
@@ -42,7 +42,7 @@
     },
     {
       "name": "Minecraft Launcher",
-      "version": "1.20.4",
+      "version": "Latest Release",
       "creator": "Mojang Studios",
       "logo": "https://static.wikia.nocookie.net/logopedia/images/e/e3/Minecraft_Launcher.svg/revision/latest/scale-to-width-down/200?cb=20230616222246",
       "sources": [
@@ -58,7 +58,7 @@
     },
     {
       "name": "Seelen UI",
-      "version": "1.2.3",
+      "version": "Latest Stable Release",
       "creator": "Eythaann, Seelen Team",
       "logo": "https://www.appmiu.com/wp-content/uploads/2024/08/appmiu-thumbnail-77.png",
       "sources": [
@@ -70,7 +70,7 @@
     },
     {
       "name": "Discord",
-      "version": "1.0.9028",
+      "version": "Latest Release",
       "creator": "Discord Inc.",
       "logo": "https://support.discord.com/hc/user_images/PRywUXcqg0v5DD6s7C3LyQ.jpeg",
       "sources": [
@@ -86,7 +86,7 @@
     },
     {
       "name": "WhatsApp",
-      "version": "2.2412.4",
+      "version": "Latest Release",
       "creator": "Meta",
       "logo": "https://cdn4.iconfinder.com/data/icons/miu-square-flat-social/60/whatsapp-square-social-media-512.png",
       "sources": [
@@ -130,7 +130,7 @@
     },
     {
       "name": "Floorp",
-      "version": "11.11.0",
+      "version": "Latest Release",
       "creator": "Floorp Projects",
       "logo": "https://floorp.app/favicon.ico",
       "sources": [
@@ -146,7 +146,7 @@
     },
     {
       "name": "Vivaldi",
-      "version": "6.6",
+      "version": "Latest Release",
       "creator": "Vivaldi Technologies",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Vivaldi_web_browser_logo.svg/1026px-Vivaldi_web_browser_logo.svg.png",
       "sources": [
@@ -246,7 +246,7 @@
     },
     {
       "name": "Arc",
-      "version": "1.0",
+      "version": "Latest Release",
       "creator": "The Browser Company",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Arc_%28browser%29_logo.svg/640px-Arc_%28browser%29_logo.svg.png",
       "sources": [
@@ -258,7 +258,7 @@
     },
     {
       "name": "GitHub Desktop",
-      "version": "3.3.12",
+      "version": "Latest Release",
       "creator": "GitHub, Inc.",
       "logo": "https://desktop.github.com/images/desktop-icon.svg",
       "sources": [
@@ -298,7 +298,7 @@
     },
     {
       "name": "Visual Studio Community 2022",
-      "version": "17.9.0",
+      "version": "Latest Release",
       "creator": "Microsoft",
       "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShNr_qvEhshsb5yO_f4jm061arTxC6JtT6mA&s",
       "sources": [
